@@ -5,7 +5,7 @@ provider "aws" {
 
 module "VPC-Module" { 
   source = "./VPC-Module"
-  }
+}
 
 
 module "SG-Module" { 
