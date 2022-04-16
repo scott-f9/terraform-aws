@@ -2,11 +2,9 @@ provider "aws" {
   region = element(var.region, 0)
 }
 
-
 module "VPC-Module" { 
   source = "./VPC-Module"
 }
-
 
 module "SG-Module" { 
   source = "./SG-Module"
