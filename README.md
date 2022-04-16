@@ -1,5 +1,4 @@
 # terraform-aws
-automated deployment of EC2s, VPC, subnet, IGW, and SG in AWS with terraform
 
 This terraform project creates the following topology:
 
