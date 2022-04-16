@@ -1,6 +1,6 @@
 # terraform-aws
 
-This terraform project deploys the following topology:
+This terraform project deploys the following topology (credits to Felix Carapaica for the diagram):
 
 ![GitHub Logo](https://i.imgur.com/dq2PeHW.png)
 
