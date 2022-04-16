@@ -2,7 +2,6 @@ provider "aws" {
   region = element(var.region, 0)
 }
 
-
 resource "aws_vpc" "scott_vpc" {
   cidr_block =       var.cidrblock
   instance_tenancy = "default"
