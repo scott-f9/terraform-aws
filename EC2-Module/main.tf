@@ -34,7 +34,7 @@ data "aws_ami" "ubuntu" {
         sudo apt-get update
         sudo apt-get install apache2 -y
         cd /var/www/html
-        sudo  echo "helo $(hostname -f)" > index.html
+        sudo  echo "hello $(hostname -f)" > index.html
         systemctl restart httpd
         systemctl enable httpd
         EOF
@@ -51,7 +51,7 @@ data "aws_ami" "ubuntu" {
         sudo apt-get update
         sudo apt-get install apache2 -y
         cd /var/www/html
-        sudo  echo "helo $(hostname -f)" > index.html
+        sudo  echo "hello $(hostname -f)" > index.html
         systemctl restart httpd
         systemctl enable httpd
         EOF
